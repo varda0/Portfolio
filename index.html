@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6659852acc.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/name.png" alt="name" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Varda</span><br>Chougule from India</h1>
+        </div>
+    </div>
+  </div>
+
+<!----About---->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user2.png" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am Vardayini Chougule, a dedicated second-year B.Tech student developer building expertise in Java, C, HTML, CSS, and React.
+                    I enjoy creating innovative projects, from interactive web applications to deep learning solutions like brain tumor image classification. 
+                    With a flair for problem-solving and an eye for design, I aim to craft seamless user experiences.Beyond coding, I love sketching, reading, & staying active. Let's connect and bring ideas to life!</p>
+            
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div> 
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Creative Design</span><br>UI/UX design for web and mobile platforms with a user-first approach.</li>
+                        <li><span>Frontend Development</span><br>Proficient in HTML, CSS, JavaScript, and React for building responsive interfaces.</li>
+                        <li><span>AI and Deep Learning</span><br>Experience with TensorFlow, Keras, and Python for building AI models and applications.</li>
+                    </ul>
+                </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jul'24 - Sep'24</span><br>Data Science and Machine Learning with Python training - Coursera</li>
+                        <li><span>Aug'24 - Oct'24</span><br>Created a Brain Tumor Image Classification app using Python, TensorFlow, and Flask</li>
+                        <li><span>Feb'24 - May'24</span><br>Web Development Internship at Oasis Infobyte</li>
+                        <li><span>Jan'24</span><br>Developed a YouTube Bookmark Chrome Extension to save specific timestamps for later reference</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Present</span><br>B.Tech 2nd year, D.Y Patil University, Kolhapur</li>
+                        <li><span>2021 - 2023</span><br>Completed Higher Studies at Vivekanand College</li>
+                        <li><span>2020</span><br>Certified in German Language (A1-A2) at Goethe Institute</li>
+                    </ul>
+                  </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!--Services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specialize in crafting user-centered designs that are visually appealing and functionally seamless.
+                   With a focus on usability, I create wireframes, prototypes, and responsive interfaces that deliver exceptional user experiences.</p>
+                <a href="#">Know more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Full-Stack Web Development</h2>
+                <p>From front-end design to back-end functionality, I develop dynamic and scalable web applications using technologies like React, Node.js, HTML, CSS, and JavaScript.
+                   My work ensures performance, security, and user engagement.</p>
+                <a href="#">Know more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Deep Learning and AI Solutions</h2>
+                <p>I leverage deep learning frameworks like TensorFlow and Keras to build intelligent systems and other custom AI solutions.
+                   My expertise includes model training, evaluation, and deployment using Flask.</p>
+                <a href="#">Know more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="work1">
+                <div class="layer">
+                    <h3>Movie Ticket Booking App</h3>
+                    <p>A web application that mimics a movie ticket booking platform.
+                       Experience seamless movie bookings with a dynamic, real-time platform—check it out now!</p>
+                       <a href="https://github.com/varda0/Dattamsh_Cinema"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png" alt="work1">
+                <div class="layer">
+                    <h3>Sorting Visualizer</h3>
+                    <p>An interactive tool that help users understand how algorithms work by showing step-by-step data manipulation.
+                       See sorting algorithms in action with an interactive, real-time demo—try it now!</p>
+                       <a href="https://github.com/varda0/Sorting-Visualizer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="work1">
+                <div class="layer">
+                    <h3>Tumor Detection App</h3>
+                    <p>A deep learning model that classifies brain tumor images and helps in the early detection, with real-time predictions.
+                        Scan brain tumors with deep learning for, accurate diagnoses—explore now!</p>
+                       <a href="https://github.com/varda0/Tumor-Detection-Web-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>varda1427@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>91+8956499599</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100094013705217"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/VardayiniC"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/vardayini14/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://www.instagram.com/vardayinichougule_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/My-CV.pdf" download class ="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn3">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Varda Chougule. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(var tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(var tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxfhAT4SeNgGTKhhleuTRoBEHLPxS5s96NXFUQhO3HhlgO08f93RFNMtpPn7MFZYZlbxw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
